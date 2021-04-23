@@ -1,5 +1,3 @@
-const axios = require('axios');
-
 const handlers = ({axios}) => ({
     get: async(req, res) => {
         const {data} = await axios.get('https://jsonplaceholder.cypress.io/users');
